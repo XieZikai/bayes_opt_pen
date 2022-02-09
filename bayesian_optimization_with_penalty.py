@@ -1,9 +1,8 @@
-
 from bayes_opt.bayesian_optimization import BayesianOptimization
 import pandas as pd
 import numpy as np
 from bayes_opt.event import Events
-from acq import ModifiedAcq
+from .acq import ModifiedAcq
 
 
 class ModifiedBayesianOptimization(BayesianOptimization):

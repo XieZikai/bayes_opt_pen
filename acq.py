@@ -21,9 +21,7 @@ class ModifiedAcq(object):
 
         self._lr_decay = lr_decay
 
-        self.prior_pointer = None
-
-        self.chosen_index = 0
+        self.prior_pointer = 0
 
     def utility(self, x, gp, y_max):
         if self.kind == 'ucb':
@@ -38,15 +36,14 @@ class ModifiedAcq(object):
 
         if len(self.lr) > 0:
             self.lr[self.prior_pointer] *= self._lr_decay
-            self.chosen_index = (self.chosen_index + 1) % len(self.prior_point_list)
+            self.prior_pointer = (self.prior_pointer + 1) % len(self.prior_point_list)
 
     def compute_penalty_term(self, x, acq_score, prior):
 
         if len(self.lr) == 0:
             return 0
 
-        chosen_index = self.chosen_index
-        self.prior_pointer = chosen_index
+        chosen_index = self.prior_pointer
         lr = self.lr[chosen_index]
         dist = np.linalg.norm(x - prior[chosen_index], axis=1)
 

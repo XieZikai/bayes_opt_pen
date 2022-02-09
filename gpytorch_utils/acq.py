@@ -2,15 +2,15 @@ from abc import ABC
 
 from botorch.acquisition.analytic import AnalyticAcquisitionFunction
 from botorch.models.model import Model
-from typing import Dict, Optional, Tuple, Union
+from typing import Optional, Union
 from botorch.acquisition.objective import ScalarizedObjective
-from botorch.utils.transforms import convert_to_target_pre_hook, t_batch_mode_transform
+from botorch.utils.transforms import t_batch_mode_transform
 
 import torch
 from torch.distributions import Normal
 from torch import Tensor
 
-from ..utils import del_tensor_element
+from gpytorch_utils.utils import del_tensor_element
 
 """
 This file contains acquisition functions with penalty term.
@@ -62,7 +62,7 @@ class PenalisedAnalyticAcquisitionFunction(AnalyticAcquisitionFunction, ABC):
             if isinstance(acq_score, float):
                 self.constant_multiplier = acq_score / (lr * torch.sqrt(dist) * 2)
             elif isinstance(acq_score, torch.Tensor) or isinstance(acq_score, list):
-                self.constant_multiplier = acq_score[0] / (lr * torch.sqrt(dist[0]) * 2)
+                self.constant_multiplier = acq_score[0] / (lr * torch.sqrt(dist) * 2)
 
         penalty_term = lr * torch.sqrt(dist) * self.constant_multiplier * 2
         return penalty_term

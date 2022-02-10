@@ -10,7 +10,7 @@ import torch
 from torch.distributions import Normal
 from torch import Tensor
 
-from gpytorch_utils.utils import del_tensor_element
+from bayes_opt_pen.gpytorch_utils.utils import del_tensor_element
 
 """
 This file contains acquisition functions with penalty term.

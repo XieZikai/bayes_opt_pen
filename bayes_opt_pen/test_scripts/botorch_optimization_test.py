@@ -4,7 +4,7 @@ from botorch.fit import fit_gpytorch_model
 from botorch.utils import standardize
 from gpytorch.mlls import ExactMarginalLogLikelihood
 from botorch.acquisition import UpperConfidenceBound
-from gpytorch_utils.acq import PenalisedUpperConfidenceBound
+from bayes_opt_pen.gpytorch_utils.acq import PenalisedUpperConfidenceBound
 
 
 train_X = torch.rand(10, 2)

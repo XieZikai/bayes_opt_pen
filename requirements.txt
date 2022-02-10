@@ -1,6 +1,6 @@
 bayesian-optimization
-numpy~=1.21.2
-scipy~=1.5.2
-pandas~=1.1.4
-botorch~=0.5.1
-torch~=1.9.0+cu111
+numpy
+scipy
+pandas
+botorch
+torch

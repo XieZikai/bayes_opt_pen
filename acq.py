@@ -17,16 +17,11 @@ class ModifiedAcq(object):
 
         self.kind = kind
         self.prior_point_list = prior_point_list
-
         self.lr = np.ones(len(prior_point_list))
 
         self._lr_decay = lr_decay
 
-        self.prior_pointer = None
-
-        self.chosen_index = 0
-        self.prior_alpha = [1 for i in range(len(self.prior_point_list))]
-        self.prior_beta = [1 for i in range(len(self.prior_point_list))]
+        self.prior_pointer = 0
 
     def utility(self, x, gp, y_max):
         if self.kind == 'ucb':
@@ -38,26 +33,17 @@ class ModifiedAcq(object):
         self._iters_counter += 1
         if self._kappa_decay < 1 and self._iters_counter > self._kappa_decay_delay:
             self.kappa *= self._kappa_decay
-        self.lr[self.prior_pointer] *= self._lr_decay
 
-        self.chosen_index = (self.chosen_index + 1) % len(self.prior_point_list)
-
-        if success is not None:
-            if success:
-                self.prior_alpha[self.prior_pointer] += 1
-            else:
-                self.prior_beta[self.prior_pointer] += 1
-
-        '''# Thompson Sampling on priors
-        beta_sample = []
-        for i in range(len(self.prior_point_list)):
-            beta_sample.append(np.random.beta(self.prior_alpha[i], self.prior_beta[i]))
-        self.chosen_index = np.argmax(beta_sample)'''
+        if len(self.lr) > 0:
+            self.lr[self.prior_pointer] *= self._lr_decay
+            self.prior_pointer = (self.prior_pointer + 1) % len(self.prior_point_list)
 
     def compute_penalty_term(self, x, acq_score, prior):
 
-        chosen_index = self.chosen_index
-        self.prior_pointer = chosen_index
+        if len(self.lr) == 0:
+            return 0
+
+        chosen_index = self.prior_pointer
         lr = self.lr[chosen_index]
         dist = np.linalg.norm(x - prior[chosen_index], axis=1)
 
@@ -99,8 +85,8 @@ class ModifiedAcq(object):
         penalty_term = self.compute_penalty_term(x, poi_score, prior)
         return poi_score - penalty_term
 
-    # todo: 这里需要修改，需要把prior中的那条也删掉
     def delete_prior(self):
-        del(self.lr[self.prior_pointer])
-        del(self.prior_point_list[self.prior_pointer])
-        self.prior_pointer -= 1
+        if len(self.lr) > 0:
+            self.lr = np.delete(self.lr, self.prior_pointer, 0)
+            del(self.prior_point_list[self.prior_pointer])
+            self.prior_pointer -= 1

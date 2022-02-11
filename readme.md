@@ -19,7 +19,12 @@ which is a novel method of combining datapoint-like prior knowledge into BO proc
 
 ## Install
 
+Haven't registered yet.
 
+```shell
+python setup.py build
+python setup.py install
+```
 
 ## Usage
 

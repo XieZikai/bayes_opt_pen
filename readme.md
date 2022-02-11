@@ -37,7 +37,7 @@ def black_box_function(x, y):
 
 Define prior point list:
 ```python
-
+prior_point_list = [2.5, 3.5]
 ```
 
 Calling optimizer:
@@ -51,6 +51,7 @@ optimizer = BayesianOptimization(
     f=black_box_function,
     pbounds=pbounds,
     random_state=1,
+    prior_point_list=prior_point_list
 )
 ```
 

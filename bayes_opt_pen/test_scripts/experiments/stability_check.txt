@@ -1,0 +1,291 @@
+Parameter containing:
+tensor([[ 0.6934],
+        [-1.7821]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6334],
+        [-2.0984]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.9507],
+        [-1.2207]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.8180],
+        [ 0.2154]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.5394],
+        [-1.0695]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.6283],
+        [-1.7119]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.8315],
+        [ 0.1801]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.7225],
+        [-1.0747]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.7631],
+        [-2.5772]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.7433],
+        [-1.2974]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.1553],
+        [-0.2520]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.4006],
+        [-1.9201]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.9521],
+        [-1.7050]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.2389],
+        [-0.7514]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.1415],
+        [-2.2080]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.7879],
+        [-1.8119]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.4461],
+        [-1.4859]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.7678],
+        [ 0.3904]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.7004],
+        [-2.0795]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.9798],
+        [-0.4655]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.4533],
+        [-1.3265]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.0859],
+        [-1.9894]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.1990],
+        [-0.4428]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.4732],
+        [-0.6982]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.6298],
+        [-1.4021]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7284],
+        [-0.4622]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.5107],
+        [-1.1146]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.4831],
+        [-1.4620]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.9320],
+        [-1.1032]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.0353],
+        [-0.3894]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.7841],
+        [ 0.2654]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.5740],
+        [-0.2395]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-5.6156],
+        [-1.6523]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.5896],
+        [-1.4061]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.0334],
+        [-1.6619]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.3101],
+        [-0.5122]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.5700],
+        [-1.2246]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7462],
+        [-1.4828]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.7475],
+        [-1.3369]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.8875],
+        [-0.7742]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.8589],
+        [-1.7513]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.8661],
+        [-0.9962]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.9475],
+        [-0.3110]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7430],
+        [-1.9792]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1830],
+        [-1.4112]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.5301],
+        [-1.4301]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.2554],
+        [-1.2254]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.7882],
+        [-0.8778]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1058],
+        [-2.1773]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.7115],
+        [-1.9088]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.8260],
+        [-0.6085]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.2927],
+        [-0.6913]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.2755],
+        [-0.8264]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.0717],
+        [-1.8535]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1638],
+        [-0.8682]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-4.3294],
+        [-2.2661]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.3979],
+        [-0.6418]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.2711],
+        [-1.4583]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.0424],
+        [-0.5458]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.1913],
+        [-0.4032]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-4.1239],
+        [-2.3183]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7096],
+        [-0.4356]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.8731],
+        [-1.1132]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.9441],
+        [-0.0645]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.3551],
+        [-1.4922]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.5461],
+        [-1.2007]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.4096],
+        [-0.4457]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.1835],
+        [-1.1396]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.9714],
+        [-0.8250]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.5903],
+        [-1.7511]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.9766],
+        [-0.5662]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.7861],
+        [-0.4627]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6850],
+        [-0.1081]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.5009],
+        [ 0.0771]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.3641],
+        [-0.4829]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.1049],
+        [-0.8387]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.2938],
+        [-0.2390]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.4400],
+        [-0.9711]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.6592],
+        [-0.3059]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.2654],
+        [-0.7929]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.6631],
+        [-0.5210]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.2159],
+        [-0.3511]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6369],
+        [-0.6990]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1145],
+        [-1.5363]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1183],
+        [-1.9599]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.0659],
+        [-1.2579]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.5999],
+        [-1.0440]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.8673],
+        [-2.2322]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6061],
+        [-0.5275]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-0.9134],
+        [-0.8589]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.9222],
+        [-0.8739]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.1180],
+        [-0.5635]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.6222],
+        [-1.7738]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-1.5585],
+        [-0.6951]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-3.1662],
+        [-1.1750]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-2.9351],
+        [-1.2372]], dtype=torch.float64, requires_grad=True)
+Parameter containing:
+tensor([[-4.3468],
+        [-1.7993]], dtype=torch.float64, requires_grad=True)
